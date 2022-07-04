@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="net.getkeepers.www.twa"
+26    android:versionCode="2"
+27    android:versionName="2" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+30-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml
+31        android:targetSdkVersion="31" />
+31-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml
+32
+33    <queries>
+33-->[com.google.androidbrowserhelper:androidbrowserhelper:2.3.0] /home/jaume/.gradle/caches/transforms-2/files-2.1/572def1352afcb56982bb86acf89682d/androidbrowserhelper-2.3.0/AndroidManifest.xml:26:5-34:15
+34        <intent>
+34-->[com.google.androidbrowserhelper:androidbrowserhelper:2.3.0] /home/jaume/.gradle/caches/transforms-2/files-2.1/572def1352afcb56982bb86acf89682d/androidbrowserhelper-2.3.0/AndroidManifest.xml:27:9-33:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:128:17-68
+35-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:128:25-66
+36
+37            <category android:name="android.intent.category.BROWSABLE" />
+37-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:130:17-77
+37-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:130:27-75
+38
+39            <data android:scheme="https" />
+39-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:131:17-132:54
+39-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:131:23-45
+40        </intent>
+41    </queries>
+42
+43    <application
+43-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:29:5-171:19
+44        android:name="net.getkeepers.www.twa.Application"
+44-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:30:9-35
+45        android:allowBackup="true"
+45-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:31:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.1.0] /home/jaume/.gradle/caches/transforms-2/files-2.1/e601daed4ba62929db8b322b2974c8f8/core-1.1.0/AndroidManifest.xml:24:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+48-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:32:9-43
+49        android:label="@string/appName"
+49-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:33:9-40
+50        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+50-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:35:9-105
+51        android:supportsRtl="true"
+51-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:37:9-35
+52        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+52-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:38:9-68
+53        <meta-data
+53-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:40:9-42:58
+54            android:name="asset_statements"
+54-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:41:13-44
+55            android:resource="@string/assetStatements" />
+55-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:42:13-55
+56        <meta-data
+56-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:45:13-47:58
+57            android:name="web_manifest_url"
+57-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:46:17-48
+58            android:value="@string/webManifestUrl" />
+58-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:47:17-55
+59        <meta-data
+59-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:50:9-52:52
+60            android:name="twa_generator"
+60-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:51:13-41
+61            android:value="@string/generatorApp" />
+61-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:52:13-49
+62
+63        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+63-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:57:13-61:24
+63-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:57:23-104
+64            <meta-data
+64-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:58:13-60:53
+65                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+65-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:59:17-83
+66                android:value="@string/launchUrl" />
+66-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:60:17-50
+67        </activity>
+68        <activity
+68-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:64:9-136:20
+69            android:name="net.getkeepers.www.twa.LauncherActivity"
+69-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:64:19-50
+70            android:alwaysRetainTaskState="true"
+70-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:65:13-49
+71            android:exported="true"
+71-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:67:13-36
+72            android:label="@string/launcherName" >
+72-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:66:13-49
+73            <meta-data
+73-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:68:13-69:53
+74                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+74-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:68:24-85
+75                android:value="@string/launchUrl" />
+75-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:69:17-50
+76            <meta-data
+76-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:71:13-73:58
+77                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+77-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:72:17-83
+78                android:resource="@color/colorPrimary" />
+78-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:73:17-55
+79            <meta-data
+79-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:75:13-77:61
+80                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+80-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:76:17-87
+81                android:resource="@color/navigationColor" />
+81-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:77:17-58
+82            <meta-data
+82-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:79:13-81:65
+83                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+83-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:80:17-92
+84                android:resource="@color/navigationColorDark" />
+84-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:81:17-62
+85            <meta-data
+85-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:83:13-85:68
+86                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+86-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:84:17-84
+87                android:resource="@color/navigationDividerColor" />
+87-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:85:17-65
+88            <meta-data
+88-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:87:13-89:72
+89                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+89-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:88:17-89
+90                android:resource="@color/navigationDividerColorDark" />
+90-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:89:17-69
+91            <meta-data
+91-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:91:13-92:54
+92                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+92-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:91:24-95
+93                android:resource="@drawable/splash" />
+93-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:92:17-52
+94            <meta-data
+94-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:94:13-95:60
+95                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+95-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:94:24-104
+96                android:resource="@color/backgroundColor" />
+96-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:95:17-58
+97            <meta-data
+97-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:97:13-98:71
+98                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+98-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:97:24-105
+99                android:value="@integer/splashScreenFadeOutDuration" />
+99-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:98:17-69
+100            <meta-data
+100-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:100:13-101:60
+101                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+101-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:100:24-97
+102                android:value="@string/providerAuthority" />
+102-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:101:17-58
+103            <meta-data
+103-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:103:13-97
+104                android:name="android.app.shortcuts"
+104-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:103:24-60
+105                android:resource="@xml/shortcuts" />
+105-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:103:61-94
+106            <meta-data
+106-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:105:13-106:56
+107                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+107-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:105:24-91
+108                android:value="@string/fallbackType" />
+108-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:106:17-53
+109            <meta-data
+109-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:111:13-112:45
+110                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
+110-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:111:24-86
+111                android:value="immersive" />
+111-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:112:17-42
+112            <meta-data
+112-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:115:13-116:43
+113                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+113-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:115:24-92
+114                android:value="portrait" />
+114-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:116:17-41
+115
+116            <intent-filter>
+116-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:122:13-125:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:123:17-69
+117-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:123:25-66
+118
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:124:17-77
+119-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:124:27-74
+120            </intent-filter>
+121            <intent-filter android:autoVerify="true" >
+121-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:127:13-133:29
+121-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:127:28-53
+122                <action android:name="android.intent.action.VIEW" />
+122-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:128:17-68
+122-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:128:25-66
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:129:17-76
+124-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:129:27-73
+125                <category android:name="android.intent.category.BROWSABLE" />
+125-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:130:17-77
+125-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:130:27-75
+126
+127                <data
+127-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:131:17-132:54
+128                    android:host="@string/hostName"
+128-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:132:21-52
+129                    android:scheme="https" />
+129-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:131:23-45
+130            </intent-filter>
+131        </activity>
+132        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+132-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:138:9-90
+132-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:138:19-87
+133        <activity
+133-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:140:9-141:62
+134            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+134-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:140:19-97
+135            android:configChanges="orientation|screenSize" />
+135-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:141:13-59
+136
+137        <provider
+137-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:143:9-151:20
+138            android:name="androidx.core.content.FileProvider"
+138-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:144:13-62
+139            android:authorities="@string/providerAuthority"
+139-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:145:13-60
+140            android:exported="false"
+140-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:147:13-37
+141            android:grantUriPermissions="true" >
+141-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:146:13-47
+142            <meta-data
+142-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:148:13-150:53
+143                android:name="android.support.FILE_PROVIDER_PATHS"
+143-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:149:17-67
+144                android:resource="@xml/filepaths" />
+144-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:150:17-50
+145        </provider>
+146
+147        <service
+147-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:153:9-168:19
+148            android:name="net.getkeepers.www.twa.DelegationService"
+148-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:154:13-46
+149            android:enabled="@bool/enableNotification"
+149-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:155:13-55
+150            android:exported="@bool/enableNotification" >
+150-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:156:13-56
+151            <meta-data
+151-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:159:17-161:73
+152                android:name="android.support.customtabs.trusted.SMALL_ICON"
+152-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:160:21-81
+153                android:resource="@drawable/ic_notification_icon" />
+153-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:161:21-70
+154
+155            <intent-filter>
+155-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:164:13-167:29
+156                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+156-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:165:17-105
+156-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:165:25-103
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:129:17-76
+158-->/home/jaume/Escriptori/uni/Q8/twav2/app/src/main/AndroidManifest.xml:129:27-73
+159            </intent-filter>
+160        </service>
+161    </application>
+162
+163</manifest>
